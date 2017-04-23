@@ -1,7 +1,6 @@
 # Table of Contents
 
 * [Read Me](/README.md)
-* [Cinema](/docs/README.md)
 * [Architecture Services](/docs/back/README.md)
     * [Mongodb](/docs/back/README.md)
     * [Microservice rest-full movies](/docs/back/Movies.md)
