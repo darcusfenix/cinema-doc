@@ -1,0 +1,1 @@
+# As a User, I want to add a comment of one movie in the galery.
