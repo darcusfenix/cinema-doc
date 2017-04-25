@@ -4,7 +4,7 @@ This is my project that I intend to use as a portfolio. In which I want to share
 
 Basically it is an architecture based on microservices containerized in docker under a clouster docker swarm.
 
-There is a mongodb database that each container connects to.
+Mongodb is the database that each container connects to.
 
 For push notifications I am using the Activemq messaging broker that exposes two ports, one for websocket and tcp for the containers. Mqtt is the protocol used for communication.
 
