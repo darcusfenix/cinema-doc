@@ -1,4 +1,4 @@
-# Cinema gallery project
+# gallery of movies project
 
 This is a project that I intend to use as a portfolio. In which I want to share some of my knowledge.
 

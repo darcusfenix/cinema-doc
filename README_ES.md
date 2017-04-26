@@ -7,15 +7,8 @@ No es una arquitectura perfecta, pero se espera que te dé una idea de cómo dis
 Basicamente, es una arquitectura basada en microservicios contenerizada en docker bajo el clouster docker swarm.
 
 Este ejemplo de arquitectura es end-to-end, es decir, se mostrará el desarrollo, código y ejemplo de cada uno de los componentes
-que lo conforman. Desde la interacción del usuario hasta la base de datos.
-
-* Base de datos Nosql Mongodb
-+ Clouster de microservicios rest-full programados en Node Js contenerizado en docker.
-* Balanceador de carga para los servicios rest.
-* Activemq como broker de mensajería para las notificaciones push
-* Clouster de contenedores node js que entregan al navegador la single page application.
-* Balanceador de carga para la spa.
-* Single page application en react js / redux.
+que lo conforman. Desde la interacción del usuario hasta la base de datos. Y para ello se dividio en dos. Una parte es 
+backend y otra para frontend.
 
 Se plantearon cuatro historias de usuario para definir esta arquitectura. Los cuales son:
 
