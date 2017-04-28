@@ -1,6 +1,5 @@
 # Table of Contents
 
-* [Leer](/README_ES.md)
 * [Arquitectura de microservicios](/docs/back_es/README.md)
     * [Mongodb](/docs/back_es/Mongo.md)
     * [Microservice rest-full movies](/docs/back_es/Movies.md)

@@ -1,31 +1,29 @@
-# gallery of movies project
+# Proyecto galería de películas en un cine
 
-This is a project that I intend to use as a portfolio. In which I want to share some of my knowledge.
+Este es un proyecto que se intenta usar como portafolio. El cual, se prentende compartir un poco de conocimiento.
 
-Basically it is an architecture based on microservices containerized in docker under a clouster docker swarm.
+No es una arquitectura perfecta, pero se espera que te dé una idea de cómo diseñar tu propia.
 
-Mongodb is the database that each container connects to.
+Básicamente, es una arquitectura basada en microservicios contenerizada en docker bajo el clouster docker swarm.
 
-For push notifications I am using the Activemq messaging broker that exposes two ports, one for websocket and tcp for the containers. Mqtt is the protocol used for communication.
+Este ejemplo de arquitectura es end-to-end, es decir, se mostrará el desarrollo, código y ejemplo de cada uno de los componentes
+que lo conforman. Desde la interacción del usuario hasta la base de datos. Y para ello se dividió en dos. Una parte es 
+backend y otra para frontend.
 
-I use a load balancer for the rest-full services and another for the spa.
+Se plantearon cuatro historias de usuario para definir esta arquitectura. Los cuales son:
 
-For the front-ent part I developed a single page application in react js / redux.
+1. Como un Usuario, Yo quiero ver todas las películas en la galería.
+2. Como un Usuario, Yo quiero ver todos los comentarios de una película, para que yo pueda saber las criticas de los demás usuarios.
+3. Como un Usuario, Yo quiero añadir un comentario a una película, para que yo pueda dar mi critica de la misma.
+4. Como un Usuario, Yo quiero recibir las nuevas películas en la galería, para que yo pueda ver la última sin actualizar la página.
 
-This spa consumes the movies and shows in gallery. In each movie we can see its image, description and comments. If we want we can add one to the selected movie.
-
-When the main component of the spa is rendered, start the connection via websocket to the message broker.
-
-If the connection to the websocket was successful the spa subscribes to two topics. One to receive notifications of new comments and another for new movies.
-
-When a new movie notification is received the spa performs the request to obtain the entire object of the movie. And, to finish if the answer of the movie is successful it paints as first element the new film in the gallery.
-
+Las siguientes imágenes son el resultado final (Single page application) que el usuario podrá interactuar.
     
-Screenshot of the gallery of movies
+Captura de pantalla de la galería de películas.
 
 ![alt text](https://www.dropbox.com/s/p9n9zn7cugicknk/spa-movies.png?dl=1 "Single page application - Movies")
 
-Screenshot of the movie's comments
+Captura de pantalla de los comnetarios y formulario para añadir uno a la película.
 
 ![alt text](https://www.dropbox.com/s/w4yg9h3bx9myhdr/spa-comments-of-a-movie.png?dl=1 "Single page application - Movies")
 
