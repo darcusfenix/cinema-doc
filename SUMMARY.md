@@ -1,18 +1,5 @@
 # Table of Contents
 
-* [Read Me](/README.md)
-* [Architecture of microservices](/docs/back/README.md)
-    * [Mongodb](/docs/back/Mongo.md)
-    * [Microservice rest-full movies](/docs/back/Movies.md)
-    * [Microservice rest-full comments](/docs/back/Comments.md)
-    * [Docker swarm](/docs/back/Swarm.md)
-    * [Message broker](/docs/back/Activemq.md)
-    * [Load balancer](/docs/back/nginx.md)
-* [Architecture SPA](/docs/front/README.md)
-    * [React js](/docs/front/react.md)
-    * [Websocket mqtt](/docs/front/Websocket.md)
-    * [Movies](/docs/front/Movies.md)
-    * [Comments](/docs/front/Comments.md)
 * [Leer](/README_ES.md)
 * [Arquitectura de microservicios](/docs/back_es/README.md)
     * [Mongodb](/docs/back_es/Mongo.md)
