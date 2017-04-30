@@ -124,9 +124,10 @@ Para el desarrollo de estos componentes que exponen los servicios rest se diseñ
      }
  
  };
-
  ```
+ 
  * Módulo que conecta con el message broker.
+ 
  ```javascript
 
  
@@ -169,7 +170,6 @@ Para el desarrollo de estos componentes que exponen los servicios rest se diseñ
          });
  
      });
- 
 
  ```
  
