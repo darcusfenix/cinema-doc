@@ -14,7 +14,7 @@ Los componentes que conforman este diseño son:
 * Un balanceador de carga.
 * Un broker de mensajería.
 
-Estos componentes están distribuidos en 5 máquinas virtuales, alojadas en Azure.
+Estos componentes están distribuidos en 6 máquinas virtuales, alojadas en Azure.
 
 1. Máquina virtual dedicada a una instancia de Mongodb. 
 2. Tres máquinas virtuales que complentan el clouster dedicado a microservicios rest-full.
