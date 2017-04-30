@@ -3,7 +3,7 @@
 ![alt text](https://www.dropbox.com/s/6jh8nwy9q8vhma4/mongodb.png?dl=1 "Microservices Architecture")
 
 Se utiliza Mongodb gracias a sus principales ventajas. Un  desarrollo ágil y escalable.
-En esta mv está corriendo un contendor con imagen Mongodb. En 3 paso tienes una configuración básica para usar Mongo:
+En esta mv está corriendo un contendor con imagen Mongodb. En 3 pasos tienes una configuración básica para usar Mongo:
 
 * Correr contenedor Mongodb.
 

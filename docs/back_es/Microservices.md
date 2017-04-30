@@ -4,7 +4,7 @@
 
 ![alt text](https://www.dropbox.com/s/expp2z74rz0w9cn/cInema-projects.png?dl=1 "Microservices Architecture")
 
-Para el desarrollo de estos componentes que exponen los servicios rest se diseñó en tres proyectos por separado. Uno
+Para el desarrollo de estos componentes que exponen los servicios rest se diseñó una arquitectura de proyectos en tres por separado. Uno
 "microservice-cinema-movies" que únicamente atiende las operaciones de películas y "microservice-cinema-comments" que 
  sólo atiende operaciones de comentarios. Siguiendo los principios de un microservicio. Estos dos proyectos tienen como 
  dependencia el proyecto "microservice-cinema-core". En este último sólo contiene:
